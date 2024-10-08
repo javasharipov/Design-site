@@ -1,0 +1,23 @@
+.container{
+    max-width: 1225px;
+    margin: 0 auto;
+}
+button{
+    padding: 8px 36px;
+    background: linear-gradient(#f35f2f 100%,#f35f2f 75%);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Rubic" , sans-serif;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: 300ms ease-in-out;
+
+}
+button:hover{
+    border: 1px solid #f35f2f;
+    color: #f35f2f;
+    background: #fff;
+    cursor: pointer;
+}
+

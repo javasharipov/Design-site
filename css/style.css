@@ -1,0 +1,244 @@
+/* header */
+.navbar{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar__collection{
+    display: flex;
+    gap: 56px;
+}
+.navbar__items{
+    color: #3D3D3F;
+    font-size: 14px;
+    font-weight: 500;
+}
+.navbar__items:hover{
+    text-decoration: underline;
+}
+.navbar__link{
+    text-decoration: none;
+    color: #3D3D3F;
+}
+.navbar__link:hover{
+    color: #f35f2f;
+}
+.navbar__button button{
+    padding: 10px 20px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.burger__menu{
+    display: none;
+}
+/* Hero */
+.hero{
+    padding-top: 120px;
+    display: flex;
+    padding-bottom: 130px;
+}
+.hero__body,
+.hero__image{
+    width: 50%;
+}
+.hero__body h2{
+    font-family: "Rubic" , sans-serif;
+    font-size:72px ;
+    font-weight: 500;
+    color: #3D3D3F;
+    max-width: 515px;
+    line-height: 84px;
+}
+.hero__body p{
+    font-family: "Rubic" , sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #3D3D3F;
+    max-width: 536px;
+    margin: 40px 0;
+}
+/* services */
+h3{
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px ;
+    font-weight: 700;
+    color: #3D3D3F;
+    text-align: center;
+}
+.services__wrapper{
+    margin-top: 56px;
+    display: flex;
+    padding: 54px 70px; 
+    justify-content: space-between;
+    max-width: 1170px;
+    border: 1px solid #edeeee;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service img{
+    width: 90px;
+    height: 100px;
+}
+.service strong{
+    font-weight: 700;
+    font-size: 36px;
+    color: #3D3D3F;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.service p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #3D3D3F;
+}
+/* offer  */
+.offer{
+    display:flex ;
+    gap: 28px;
+    margin-bottom: 120px;
+}
+.offer__cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 356px;
+    height: 260px;
+    border-radius: 22px;
+    background: #f5f6f9;
+    margin-top: 112px;
+    position: relative;
+    padding: 30px 20px;
+}
+.offer__cards h4{
+    max-height: 366px ;
+    margin: 20px 0;
+    font-size:24px ;
+    font-weight: 700;
+    color: #3D3D3F;
+}
+
+
+.offer__cards p{
+    font-size:16px ;
+    font-weight: 400;
+    color: #3D3D3F;
+    max-width: 277px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+.offer__cards button{
+    background: #fff;
+    padding: 0;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.offer__cards button:hover{
+    background-color: #f35f2f;
+}
+.card__image{
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 0 auto;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 2;
+}
+.card__image img{
+   padding: 20px 27px;
+
+}
+/* project section */
+.project{
+    margin-top: 54px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.project__card{
+    max-width: 392px;
+    background-color: #f5f6f9;
+    border-radius: 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.project__card h5{
+   font-weight:500 ;
+   font-size:20px ;
+   color:#3D3D3F ;
+}
+.project__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+/* our team */
+.team__wrapper{
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+.team__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 267px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 0;
+    background-color: #f5f6f9;
+}
+.team__card img{
+    width: 95%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;    
+    object-position: top;
+}
+.team__card h6{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3D3D3F;
+
+}
+.team__card p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    margin-top:2px ;
+    margin-bottom: 18px;
+}
+.media__icon{
+    display: flex;
+    gap: 12px;
+}
+.media__icon img{
+    width: 32px;
+    height: 30px;
+    object-fit: contain;
+}

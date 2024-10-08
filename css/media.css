@@ -1,0 +1,137 @@
+@media  (max-width:1510px){
+     .navbar{
+        display: flex;
+        padding: 20px 120px;
+     }
+    .navbar__collection{
+        display: none;
+    }
+    .navbar__button{
+        display: none;
+    }
+    .burger__menu{
+        display: inline-block;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero__body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+@media  (max-width:1250px) {
+    .navbar__collection{
+        display: none;
+    }
+    .navbar__button{
+        display: none;
+    }
+    .burger__menu{
+        display: inline-block;
+    }
+    .hero__image{
+        display: none;
+    }
+    .hero__button button{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    h3{
+        margin-bottom: 50px;
+    }
+    .services__wrapper{
+        margin-top: 50px;
+        max-width: 300px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid #f4f4f8;
+        gap: 40px;
+    }
+    .offer{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #f6f7f9;
+    }
+    .offer__cards{
+        background: #f6f7f9;
+    }
+    .project{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+         
+    }
+    .project__card{
+        width: auto;
+        background: #fff;
+       
+    }
+    .team__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media  (max-width:875px){
+    .hero__image{
+        display: none;
+    }
+}
+@media  (max-width:500px) {
+    .navbar__collection{
+        display: none;
+    }
+    .navbar__button{
+        display: none;
+    }
+    .burger__menu{
+        display: none;
+    }
+    .header__logo{
+        display: flex;
+        margin: 0 auto;
+    }
+    .hero__button button{
+        font-size: 10px;
+        font-weight: 300;
+        align-items: start;
+    }
+
+}
+@media  (max-width:440px){
+    .hero__body{
+        display: flex;
+        align-items: start;
+
+    }
+    .hero__body h2{
+        font-family: "Rubic" , sans-serif;
+        font-size: 50px; 
+        font-weight: 500;
+        color: #3D3D3F;
+        max-width: 515px;
+        line-height: 60px;
+    }
+    .hero__button button{
+        font-size: 10px;
+        font-weight: 300;
+        align-items: start;
+    }
+    h3{
+        font-size: 30px;
+
+    }
+}
+
